@@ -48,7 +48,7 @@ This system allows employees to submit leave requests, managers to approve or re
 - Mobile-friendly / responsive design
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (optionally React/Vue)  
+- **Frontend:** HTML, CSS, JavaScript 
 - **Backend:** PHP  
 - **Database:** MySQL  
 - **Authentication:** LDAP / Active Directory
