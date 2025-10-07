@@ -40,7 +40,7 @@ This system allows employees to submit leave requests, managers to approve or re
 - Filters: date, type, status
 - Remaining leave balance (optional)
 
-## Bonus Features (Optional)
+## Additional Features
 - Dynamic leave balance per user
 - PDF export of requests and reports
 - Email notifications at each workflow step
