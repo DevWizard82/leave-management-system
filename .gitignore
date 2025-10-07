@@ -1,0 +1,8 @@
+.env
+.htaccess
+node_modules/
+vendor/
+Composer-Setup.exe
+cron_log.txt
+*.log
+update_holidays.bat

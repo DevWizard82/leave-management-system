@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+  background-image: url("login_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 15px;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  background-color: #eee;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 34%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e72b33;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #f03c46;
+}
+
+.error-message {
+  padding: 12px;
+  background-color: #f8bfc4;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #a42834;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.password-container {
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+span {
+  color: #7494ec;
+}
+
+.box p {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.titles {
+  color: #f0f0f0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hello {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  margin-top: -10px;
+}
+
+.access {
+  margin-bottom: 14px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.desc-big {
+  margin-bottom: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > img {
+  width: 145px;
+  margin-top: -30px;
+}
+
+.small-text {
+  font-size: small;
+}
+
+.toggle-password i {
+  color: #000; /* black */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.toggle-password i:hover {
+  color: #e72b33; /* optional: brand accent on hover */
+}
