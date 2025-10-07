@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$LDAP_SERVER = $_ENV['LDAP_SERVER'] ?? 'ldap://192.168.56.101';
+$LDAP_SERVER = $_ENV['LDAP_SERVER'];
 
 /**
  * Connect to LDAP using given credentials.
